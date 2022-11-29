@@ -1,0 +1,21 @@
+{
+    "projectId": "6384bf17228320cbcf90",
+    "projectName": "gothamforge",
+    "functions": [
+        {
+            "$id": "etsyfeed",
+            "name": "etsyfeed",
+            "runtime": "node-16.0",
+            "path": "functions/etsyfeed",
+            "entrypoint": "src/index.js",
+            "ignore": [
+                "node_modules",
+                ".npm"
+            ],
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 15
+        }
+    ]
+}
