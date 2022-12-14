@@ -7,14 +7,20 @@ import Color from './color';
 
 const theme = {
   fonts: {
-    heading: "'Oswald', sans-serif",
+    heading: "'Righteous', cursive",
     avatar: "'Barlow', sans-serif",
     body: "'Lato', sans-serif",
-    branding: "'Oswald', sans-serif",
+    branding: "'Righteous', cursive",
   },
   styles: {
     global: (props) => ({
+      html: {
+        width: '100%',
+        height: '100vh',
+      },
       body: {
+        width: '100%',
+        height: '100vh',
         bg: props.colorMode === "light" ? "#f9fafb" : '#212121',
         color: props.colorMode === "light" ? Color.polar[0] : Color.snow[1],
       },
@@ -147,7 +153,7 @@ const theme = {
 
 const config:ThemeConfig = {
   initialColorMode: "light",
-  useSystemColorMode: false,
+  useSystemColorMode: true,
 };
 
 export default extendTheme({config, ...theme});

@@ -12,6 +12,8 @@ import {
   css,
 } from '@emotion/react';
 
+import './index.scss';
+
 import {Theme} from '../theme';
 import Provider from '../providers';
 import Layout from './layout';

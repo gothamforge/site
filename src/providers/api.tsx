@@ -2,7 +2,7 @@ import React from 'react';
 import {Client} from 'appwrite';
 
 const ENDPOINT = 'https://cloud.appwrite.io/v1';
-const PROJECT_ID = '6384bf17228320cbcf90';
+const PROJECT_ID = 'gothamforge';
 
 const client = new Client();
 

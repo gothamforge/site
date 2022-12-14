@@ -1,0 +1,44 @@
+.jumbotron {
+  background:  {
+    image: url('../assets/batman_banner.png') !important;
+    size: cover !important;
+    repeat: no-repeat !important;
+    position: top right !important;
+    color: #000 !important;
+  }
+}
+
+.brand-label-lg {
+  display: block !important;
+}
+
+.brand-label-sm {
+  display: none !important;
+}
+
+@media screen and (max-width:870px) {
+  .brand-label-lg {
+    display: none !important;
+  }
+  
+  .brand-label-sm {
+    display: block !important;
+  }
+}
+
+.banner-brand {
+  font-family: "'Slabo 27px', serif" !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+#gf-heading {
+  font-size : clamp(2rem, 8vw, 10rem) !important;
+}
+
+.etsy-item {
+  background:  {
+    size: cover !important;
+    repeat: no-repeat !important;
+    position: center -60px !important;
+  } 
+}

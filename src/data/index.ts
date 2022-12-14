@@ -1,4 +1,4 @@
-
+export {default as DatabaseInit} from './database';
 export type {default as Settings} from './settings';
 
 import Locale from '../locale';
